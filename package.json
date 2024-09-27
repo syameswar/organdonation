@@ -1,0 +1,23 @@
+{
+  "name": "organ-donation-platform",
+  "version": "1.0.0",
+  "description": "A platform connecting organ donor and acceptor via ethereum blockchain",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server"
+  },
+  "author": "jaswanth,venkat,ram charan",
+  "license": "MIT",
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.0.5",
+    "webpack": "4.41.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "bignumber.js": "^9.1.2",
+    "react-scripts": "^5.0.1",
+    "web3": "^1.6.1"
+  }
+}
